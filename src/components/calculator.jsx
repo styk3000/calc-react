@@ -8,7 +8,7 @@ class Calculator extends Component {
     let display = this.state.display;
     let result = this.state.result;
     if (keyNr === "+") {
-      //reset display
+      //reset display okidoky
       let result = this.state.result + this.state.display;
       this.setState({ result: result, display: 0 });
       console.log("dodawanie" + result);
